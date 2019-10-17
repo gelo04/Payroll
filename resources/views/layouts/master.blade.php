@@ -73,7 +73,7 @@
                         <img src="{{ asset('img/boss.png') }}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">{{ Auth::user()->name }}e</a>
+                        <a href="#" class="d-block">{{ Auth::user()->name }}</a>
                     </div>
                 </div>
 
@@ -122,6 +122,9 @@
             <div class="content">
                 <div class="container-fluid">
                     <router-view></router-view>
+
+                    <vue-progress-bar></vue-progress-bar>
+
                 </div><!-- /.container-fluid -->
             </div>
             <!-- /.content -->
